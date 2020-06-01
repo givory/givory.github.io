@@ -1,0 +1,185 @@
+body {
+	background-color: #000000;
+}
+
+img {
+	max-width: 100%;
+}
+
+img {
+	width: 20em;
+	height: 15em;
+	
+}
+
+#storage {
+	width: 100%;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+	color: #0000FF;
+}
+
+h2, h3 {
+	text-align: center;
+}
+
+nav {
+	font-family: "Times New Roman", serif, Georgia;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+	color: #000000;
+}
+
+nav li {
+	background-color:#000000;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+	color: #0000FF;
+}
+
+nav li a:visited {
+	color: #FFFFFF;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+nav li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+main {
+	display: block;
+	font-family: sans-serif, Arial, Vernana;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 2em;
+	border-radius: 2em 0 2em 0;
+	background-color: #000000;
+	opacity: 0.85;
+	color: #0000FF;
+	text-align: center;
+}
+
+main a {
+	background-color:#40E0D0;
+	border-radius: 1em;
+	font-weight: bold;
+	padding: 1em;
+	text-decoration: none;
+}
+
+footer {
+	font-size: .65em;
+	text-align: center;
+	margin-top: 1.5em;
+	color:#FFFFFF;
+}
+
+#desktop {
+	display: none;
+}
+
+#mobile {
+	display: inline;
+}
+
+
+	li {
+		list-style-type:none;
+	}
+
+@media only screen and (min-width: 800px) {
+	
+	header{
+		text-align:center;
+	}
+	
+	nav li a:visited {
+		color: #00FF00;
+	}
+	nav {
+		color: #FFFFFF;
+		background-color: #000000;
+	}
+	nav li a:hover {
+		font-style: italic;
+	}
+	
+	main {
+		background-color: #000000;
+		color:#00FF00;
+	}
+	
+	main p {
+		color: #00FF00;
+		margin-left: auto;
+		margin-right: auto;
+		width: 85%;
+	}
+	
+	 img {
+		height: 25em;
+		width: 35em;
+	}
+	
+	
+	main h2,h3 {
+		text-align: center;
+	}
+	
+	h1 {
+		color: #00FF00;
+	}
+	
+	#mobile {
+		display: none;
+	}
+	
+	#desktop {
+		display: inline;
+	}
+	
+		
+	
+	
+	li {
+		list-style-type:none;
+	}
+	
+	nav li{
+	color: #00FF00;
+}
+	
+}
+	
+	
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
